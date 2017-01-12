@@ -1,0 +1,54 @@
+.jumbotron
+{
+  background-color: inherit;
+  width:100%;
+  padding:0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.ui.vertical.navbar{
+  margin:10px;
+}
+.ui.image img {
+
+    width: 900px;
+    height: 300px;
+}
+.ui.navbar {
+    margin-top: 20px !important;
+}
+footer{
+  width: 100%;
+
+  position: relative;
+  top:100px;
+  text-align:center;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 767px) {
+      .ui.inverted.navbar{
+    }
+}
+
+.ui.vertical.menu{
+    margin-top: -15px !important;
+    width: 100%;
+    display: none;
+}
+.ui.grid {
+
+    margin: 20px;
+}
+.add{
+  background-color: pink;
+}
+.card
+{
+  margin-top: 40px;
+}
